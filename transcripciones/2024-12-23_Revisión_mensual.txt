@@ -1,0 +1,22 @@
+[00:00:01] María González: Buenos días, equipo. Gracias por asistir a la reunión. Hoy vamos a revisar los avances en el desarrollo del modelo de inteligencia artificial y definir los próximos pasos. ¿Todos tienen la agenda?
+[00:00:15] Juan Pérez: Sí, todo claro. Me parece que el enfoque está bien definido.
+[00:00:20] Laura Vega: Perfecto, María. ¿Por dónde empezamos?
+[00:00:25] María González: Empecemos con el informe de Juan sobre la recolección de datos. Juan, ¿puedes actualizar al equipo?
+[00:00:30] Juan Pérez: Claro. En las últimas dos semanas, hemos recopilado un dataset de aproximadamente 1.2 millones de registros. La mayoría provienen de fuentes públicas, pero también hemos utilizado datos de socios estratégicos, garantizando que se cumpla con la normativa de privacidad. Sin embargo, hemos identificado inconsistencias en aproximadamente el 15% de los datos, principalmente en entradas duplicadas o incompletas.
+[00:01:10] Laura Vega: ¿Ya se aplicaron técnicas de limpieza sobre esos datos?
+[00:01:15] Juan Pérez: Sí, empezamos con la deduplicación y completamos un análisis exploratorio. Todavía estamos trabajando en la normalización y codificación de ciertas variables categóricas.
+[00:01:30] Ricardo López: ¿Qué tan críticas son esas inconsistencias para la fase de entrenamiento del modelo?
+[00:01:35] Juan Pérez: No deberían ser un problema mayor, pero necesitamos resolverlas antes de escalar las pruebas.
+[00:01:45] María González: Excelente. Pasemos ahora a Laura, que estuvo trabajando en la arquitectura del modelo. Laura, ¿qué nos puedes compartir?
+[00:02:00] Laura Vega: Hemos diseñado una red neuronal profunda con seis capas ocultas, utilizando un enfoque de aprendizaje supervisado. El modelo está optimizado para clasificación multicategoría, y planeamos usar un conjunto inicial de 20,000 registros etiquetados para entrenamiento. Las métricas iniciales muestran una precisión del 78%, pero el modelo está claramente sobreajustado en este momento.
+[00:02:30] Ricardo López: ¿Ya intentaron técnicas de regularización como dropout o L2?
+[00:02:35] Laura Vega: Sí, implementamos dropout en las tres últimas capas, pero necesitamos ajustar los hiperparámetros para ver mejoras significativas. También consideramos incluir batch normalization en la próxima iteración.
+[00:02:50] María González: Muy bien. Ricardo, ¿qué tal tu progreso con la infraestructura en la nube?
+[00:03:00] Ricardo López: La infraestructura en Azure está casi lista. Hemos configurado contenedores para facilitar el despliegue y escalabilidad del modelo. También implementamos pipelines para automatizar el flujo de datos desde la ingesta hasta el entrenamiento y la validación. Sin embargo, tenemos algunas limitaciones de costos si usamos GPUs para todas las pruebas.
+[00:03:30] María González: ¿Qué alternativas tenemos para reducir esos costos?
+[00:03:35] Ricardo López: Podemos limitar las pruebas iniciales a un subconjunto del dataset o usar GPUs menos potentes durante las fases exploratorias.
+[00:03:50] Laura Vega: También podemos optimizar el uso de memoria, reduciendo la dimensionalidad de los datos antes del entrenamiento.
+[00:04:00] María González: Me parece una buena idea. Hablemos sobre los próximos pasos. Juan, tú te encargarás de finalizar la limpieza del dataset. Laura, ajusta los hiperparámetros del modelo e implementa las técnicas de regularización. Ricardo, explora opciones de optimización de costos en la infraestructura. ¿Algo más que quieran agregar?
+[00:04:30] Juan Pérez: Creo que cubrimos todo por ahora.
+[00:04:35] Ricardo López: Estoy de acuerdo. Nos mantenemos en contacto para cualquier duda.
+[00:04:40] María González: Perfecto, equipo. Gracias a todos por su trabajo. Nos vemos la próxima semana.
